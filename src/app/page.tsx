@@ -1,7 +1,8 @@
-import Image from "next/image";
-
+import StoragePlanSelector from "@/components/StoragePlanSelector";
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]"></div>
+    <main className="min-h-screen bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center p-4">
+      <StoragePlanSelector />
+    </main>
   );
 }
